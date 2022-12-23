@@ -1,4 +1,4 @@
-package pl.BookRate.bookLibrary;
+package pl.BookRate.bookRate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

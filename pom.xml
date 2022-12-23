@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pl.BookRate</groupId>
-	<artifactId>bookLibrary</artifactId>
+	<artifactId>bookRate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bookLibrary</name>
 	<description>Simple Movie Library</description>

@@ -1,4 +1,4 @@
-package pl.BookRate.bookLibrary;
+package pl.BookRate.bookRate;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
