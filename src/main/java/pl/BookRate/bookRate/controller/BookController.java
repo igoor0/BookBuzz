@@ -1,7 +1,9 @@
-package pl.BookRate.bookRate;
+package pl.BookRate.bookRate.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import pl.BookRate.bookRate.repository.BookRepository;
+import pl.BookRate.bookRate.model.Book;
 
 import java.util.List;
 
