@@ -1,4 +1,3 @@
-import Home from './components/Home';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -8,7 +7,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact element={<Home/>}/>
+          <Route path='/' exact element/>
         </Routes>
       </Router>
     </>
