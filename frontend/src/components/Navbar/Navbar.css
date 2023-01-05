@@ -69,7 +69,7 @@
     .nav-link{
         color: var(--black-color);
         font-size: 1.7rem;
-        font-weight: 500!important;
+        font-weight: 200!important;
         opacity: 0.8; 
     }
     .navbar-nav{
