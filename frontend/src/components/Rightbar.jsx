@@ -4,8 +4,6 @@ import { Avatar, AvatarGroup, Box, Divider, ImageList, ImageListItem, List, List
 const Rightbar = () => {
   return (
     <Box 
-    justifyContent={'center'} 
-    flex={2} 
     p={2}
     width={300}
     sx={{display: { xs: 'none', sm: 'block'}}}
@@ -20,7 +18,7 @@ const Rightbar = () => {
       <Avatar alt="Trevor Henderson" src="/static/images/avatar/5.jpg" />
     </AvatarGroup>
     <Typography variant='h6' fontWeight={100} mt={2}>Latest Pics</Typography>
-    <ImageList cols={2} rowHeight= {300} gap={2}>
+    <ImageList cols={4} rowHeight= {300} gap={2}>
       <ImageListItem>
         <img
                 src='https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=164&h=164&fit=crop&auto=format'
