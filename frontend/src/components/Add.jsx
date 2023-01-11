@@ -33,7 +33,7 @@ const Add = () => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
         >
-        <Box width={400} height={280} bgcolor='white' p={3} borderRadius={5}>
+        <Box width={400} height={280} bgcolor='primary.light' p={3} borderRadius={5}>
             <Typography variant='h5' sx={{textAlign:'center'}}>Add a Post</Typography>
             <UserBox>
                 <Avatar sx={{width: 40, height: 40}}/>

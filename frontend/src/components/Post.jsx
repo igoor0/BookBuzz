@@ -1,5 +1,5 @@
- import React from 'react'
- import { Avatar, Card, CardHeader, CardMedia, IconButton } from '@mui/material'
+import React, { useEffect, useState } from 'react'
+import { Avatar, Card, CardHeader, CardMedia, IconButton } from '@mui/material'
 import { CardContent, CardActions, Typography } from '@mui/material'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Favorite from '@mui/icons-material/Favorite';
@@ -7,7 +7,10 @@ import ShareIcon from '@mui/icons-material/Share';
 import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Checkbox from '@mui/material/Checkbox';
  
- const Post = () => {
+ const Post = (props) => {
+
+  const dataDocs = props.dataDocs;
+  
    return (
     <Card sx={{margin: 5}}> 
     <CardHeader
@@ -21,14 +24,13 @@ import Checkbox from '@mui/material/Checkbox';
           <MoreVertIcon />
         </IconButton>
       }
-      title="JOHN DOE"
+      title={dataDocs}
       subheader="September 14, 2022"
     />
     <CardMedia
       component="img"
       height="20%"
       image="https://mui.com/static/images/cards/paella.jpg"
-      alt="Paella dish"
     />
     <CardContent>
       <Typography variant="body2" color="text.secondary">
