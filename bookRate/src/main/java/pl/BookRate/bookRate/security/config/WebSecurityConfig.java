@@ -35,7 +35,7 @@ public class WebSecurityConfig {
                 .requestMatchers("/api/v1/registration/**")
                 .permitAll()
                 .anyRequest().authenticated();
-        return http.build();
+        return http.formLogin().and().build();
     }
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.authenticationProvider(daoAuthenticationProvider());
