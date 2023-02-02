@@ -18,12 +18,12 @@ import java.util.Collections;
 @Entity
 public class AppUser implements UserDetails {
 
-    @Id
     @SequenceGenerator(
             name = "user_sequence",
             sequenceName = "user_sequence",
             allocationSize = 1
     )
+    @Id
     @GeneratedValue(
             strategy = GenerationType.SEQUENCE,
             generator = "user_sequence"
