@@ -1,8 +1,8 @@
-# BookRate
+# BookBuzz
 
-BookRate is a web-based application that allows users to rate and review their favorite books, discover new lectures based on their preferences, search for books, and connect with other book enthusiasts.
+BookBuzz is a web-based application that allows users to rate and review their favorite books, discover new lectures based on their preferences, search for books, and connect with other book enthusiasts.
 
-**Please note: BookRate is currently in development and is not yet available for use.**
+**Please note: BookRate is currently in development and is not yet available for use; There has been changes is the name of app, so it's BookBuzz currently **
 
 ## Features
 
@@ -14,8 +14,8 @@ BookRate is a web-based application that allows users to rate and review their f
 
 ## Getting Started
 
-To use BookRate, simply create an account and start exploring!
+To use BookBuzz, simply create an account and start exploring!
 
 ## Support
 
-If you have any questions or need help using BookRate, please don't hesitate to contact us at <a href="https://www.linkedin.com/in/igor-kohsin-8830521a7/" target="_blank">[My LinkedIn profile]</a>.
+If you have any questions or need help using BookRate, please don't hesitate to contact us at <a href="https://www.linkedin.com/in/igor-kohsin/" target="_blank">[My LinkedIn profile]</a>.
